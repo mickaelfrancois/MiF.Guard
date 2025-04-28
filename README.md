@@ -1,6 +1,6 @@
 # MiF.Guard
 
-MiF.Guard is a modern and lightweight .NET library designed to implement the Result pattern, a powerful approach for handling operation outcomes. By encapsulating success and error states, MiF.Guard promotes cleaner, more maintainable code by reducing reliance on exceptions for control flow.  
+MiF.Guard is a modern and lightweight .NET library designed to implement the Guard pattern, a powerful approach for handling operation outcomes. By encapsulating success and error states, MiF.Guard promotes cleaner, more maintainable code by reducing reliance on exceptions for control flow.  
 With MiF.Guard, you can streamline error handling, improve code readability, and ensure robust type safety in your applications. Whether you're building small utilities or large-scale systems, MiF.Guard provides the tools you need to manage operation results effectively.
 
 ## Installation
