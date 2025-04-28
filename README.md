@@ -1,9 +1,9 @@
-# MiF.Guard
+# MiF.Guard  
 
-MiF.Guard is a modern and lightweight .NET library designed to implement the Guard pattern, a powerful approach for handling operation outcomes. By encapsulating success and error states, MiF.Guard promotes cleaner, more maintainable code by reducing reliance on exceptions for control flow.  
-With MiF.Guard, you can streamline error handling, improve code readability, and ensure robust type safety in your applications. Whether you're building small utilities or large-scale systems, MiF.Guard provides the tools you need to manage operation results effectively.
+MiF.Guard is a .NET library that implements the Guard pattern, enabling concise and effective validation of inputs and business rules. By reducing boilerplate code and improving readability, it helps developers enforce constraints and handle invalid states gracefully in their applications.
 
 ## Installation
+
 To use MiF.Guard in your project, add it as a dependency via NuGet:
 
 ```csharp
