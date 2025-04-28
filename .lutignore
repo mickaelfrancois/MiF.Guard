@@ -1,0 +1,98 @@
+## Le fichier .lutignore est utilisé par Live Unit Testing pour ignorer les fichiers temporaires Visual Studio, les résultats de build,
+## et les fichiers générés par les extensions Visual Studio populaires lors de la création d’une copie privée de l’arborescence source que
+## Live Unit Testing utilise pour sa build.
+##
+## Ce fichier a le même format que le fichier .gitignore de git (https://git-scm.com/docs/gitignore). En fait, dans le
+## cas où un fichier .lutignore est introuvable, mais qu’un fichier .gitignore est détecté, Live Unit Testing utilise le
+## fichier .gitignore directement pour les besoins décrits précédemment.
+
+# Fichiers spécifiques de l’utilisateur
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+.vs/
+.vscode/
+.packages/
+.dotnet/
+.tools/
+.idea/
+
+# Résultats de build
+[Dd]ebug/
+[Rr]elease/
+[Bb]inaries/
+[Bb]in/
+[Oo]bj/
+x64/
+TestResults/
+
+# Déboguer les artefacts
+launchSettings.json
+
+# Répertoire Click-Once
+publish/
+
+# Publier la sortie web
+*.Publish.xml
+
+# NuGet
+packages/
+[Nn]u[Gg]et.exe
+*-packages.config
+*.nuget.props
+*.nuget.targets
+project.lock.json
+msbuild.binlog
+*.project.lock.json
+
+# Divers
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.wrn
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.scc
+sql/
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*~
+*.dbmdl
+*.[Pp]ublish.xml
+*.pfx
+*.publishsettings
+
+# Fichiers temporaires et de cache
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.opendb
+*.VC.db
+AppPackages/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings
+$RECYCLE.BIN/
+.DS_Store
+*wpftmp.*

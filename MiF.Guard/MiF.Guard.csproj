@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Nullable>enable</Nullable>
+		<Title>$(AssemblyName)</Title>
+		<Authors>Mickaël FRANCOIS</Authors>
+		<Description>A .NET/C# implementation of the guard pattern.</Description>
+		<PackageProjectUrl>https://github.com/mickaelfrancois/MiF.Guard</PackageProjectUrl>
+		<PackageTags>result, error, success, pattern</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>nuget_logo.png</PackageIcon>
+		<RepositoryUrl>https://github.com/mickaelfrancois/MiF.Guard</RepositoryUrl>
+		<RepositoryType>GIT</RepositoryType>
+		<Copyright>Mickaël FRANCOIS - 2025</Copyright>
+		<Version>0.0.1</Version>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="../README.md" Pack="true" PackagePath="\" />
+		<None Include="../nuget_logo.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>

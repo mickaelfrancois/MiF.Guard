@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiF.Guard", "MiF.Guard\MiF.Guard.csproj", "{DD6AF329-E8AE-4506-B508-4EF159FF2AC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiF.Guard.UnitTests", "MiF.Guard.UnitTests\MiF.Guard.UnitTests.csproj", "{6230AD11-0656-4E39-B7C7-8A0070DCF4C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD6AF329-E8AE-4506-B508-4EF159FF2AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6AF329-E8AE-4506-B508-4EF159FF2AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6AF329-E8AE-4506-B508-4EF159FF2AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6AF329-E8AE-4506-B508-4EF159FF2AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6230AD11-0656-4E39-B7C7-8A0070DCF4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6230AD11-0656-4E39-B7C7-8A0070DCF4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6230AD11-0656-4E39-B7C7-8A0070DCF4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6230AD11-0656-4E39-B7C7-8A0070DCF4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A69C3904-0C5D-48BB-9DD0-BE155AD0E3E3}
+	EndGlobalSection
+EndGlobal
