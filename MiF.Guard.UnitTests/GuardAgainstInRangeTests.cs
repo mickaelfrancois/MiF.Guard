@@ -23,11 +23,11 @@ public class GuardAgainstInRangeTests
     [Fact]
     public void WithInRangeValue_Should_ThrowException()
     {
-        Assert.Throws<ArgumentOutOfRangeException>(() => Guard.Against.InRange(42, 0, 20));
-        Assert.Throws<ArgumentOutOfRangeException>(() => Guard.Against.InRange(42.0, 0, 20));
-        Assert.Throws<ArgumentOutOfRangeException>(() => Guard.Against.InRange(42.0f, 0, 20));
-        Assert.Throws<ArgumentOutOfRangeException>(() => Guard.Against.InRange(42.0M, 0, 20));
-        Assert.Throws<ArgumentOutOfRangeException>(() => Guard.Against.InRange(42L, 0, 20));
-        Assert.Throws<ArgumentOutOfRangeException>(() => Guard.Against.InRange(new DateTime(1975, 10, 25), new DateTime(1970, 1, 1), new DateTime(1971, 1, 1)));
+        Assert.Throws<ArgumentOutOfRangeException>(() => Guard.Against.InRange(42, 0, 50));
+        Assert.Throws<ArgumentOutOfRangeException>(() => Guard.Against.InRange(42.0, 0, 50));
+        Assert.Throws<ArgumentOutOfRangeException>(() => Guard.Against.InRange(42.0f, 0, 50));
+        Assert.Throws<ArgumentOutOfRangeException>(() => Guard.Against.InRange(42.0M, 0, 50));
+        Assert.Throws<ArgumentOutOfRangeException>(() => Guard.Against.InRange(42L, 0, 50));
+        Assert.Throws<ArgumentOutOfRangeException>(() => Guard.Against.InRange(new DateTime(1975, 10, 25), new DateTime(1970, 1, 1), new DateTime(1990, 1, 1)));
     }
 }
