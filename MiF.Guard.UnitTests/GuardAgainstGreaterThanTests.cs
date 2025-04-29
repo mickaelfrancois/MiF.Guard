@@ -10,7 +10,7 @@ public class GuardAgainstGreaterThanTests
         float floatData = Guard.Against.GreaterThan(42.0f, 64);
         decimal decimalData = Guard.Against.GreaterThan(42.0M, 64);
         long longData = Guard.Against.GreaterThan(42L, 64);
-        DateTime dateTimeData = Guard.Against.GreaterThan(new DateTime(1975,10,25), new DateTime(2025,1,1));
+        DateTime dateTimeData = Guard.Against.GreaterThan(new DateTime(1975, 10, 25), new DateTime(2025, 1, 1));
 
         Assert.Equal(42, intData);
         Assert.Equal(42, doubleData);
@@ -19,7 +19,7 @@ public class GuardAgainstGreaterThanTests
         Assert.Equal(42, longData);
         Assert.Equal(new DateTime(1975, 10, 25), dateTimeData);
     }
-    
+
     [Fact]
     public void WithGreaterValue_Should_ThrowException()
     {
