@@ -19,7 +19,7 @@ public class GuardAgainstLessThanTests
         Assert.Equal(42, longData);
         Assert.Equal(new DateTime(2025, 1, 1), dateTimeData);
     }
-    
+
     [Fact]
     public void WithLessValue_Should_ThrowException()
     {
