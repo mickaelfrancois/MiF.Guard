@@ -3,7 +3,7 @@
 public class GuardAgainstOutOfRangeTests
 {
     [Fact]
-    public void WithInRageValue_ShouldNot_ThrowException()
+    public void WithInRangeValue_ShouldNot_ThrowException()
     {
         int intData = Guard.Against.OutOfRange(42, 0, 64);
         double doubleData = Guard.Against.OutOfRange(42.0, 0, 64);

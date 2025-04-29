@@ -43,7 +43,7 @@ public static partial class GuardClauseOutOfRangeExtensions
         if (input.CompareTo(minValue) < 0 || input.CompareTo(maxValue) > 0)
         {
             Exception? exception = exceptionCreator?.Invoke();
-            throw exception ?? new ArgumentOutOfRangeException(message ?? $"Required input {parameterName} must be between {minValue} and {maxValue}.", parameterName!);
+            throw exception ?? new ArgumentOutOfRangeException(message ?? $"Required input {parameterName} must not be between {minValue} and {maxValue}.", parameterName!);
         }
 
         return input;
